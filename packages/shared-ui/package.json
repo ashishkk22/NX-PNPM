@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "shared-ui",
+  "main": "dist/index.js",
+  "description": "Shared UI Components",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
